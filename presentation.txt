@@ -1,0 +1,41 @@
+Solution of Optimization Problems using Mathcad Prime®
+======================================================
+
+Title slide
+-----------
+- Presentation Topic: Solution of Optimization Problems using Mathcad Prime®
+- Institution: ASOIU
+- Teacher: Samir Quliyev
+- Prepared by: Farid Farajli, Orxan Mammadli, Tayfur Tagiyev
+- Group: 604.22E
+
+Table of contents
+-----------------
+- Introduction
+- About Mathcad Prime®
+- Types of Optimization Problems
+
+Introduction
+------------
+- What is optimization?
+  - The process of finding the best solution from all feasible solutions.
+  - Widely used in engineering, finance, operations, etc.
+- Why optimization matters
+  - Helps reduce costs, maximize efficiency, improve performance.
+
+About Mathcad Prime®
+--------------------
+- Developed by PTC – engineering calculation software.
+- Combines math, units, and documentation in a worksheet interface.
+- Key features:
+  - Natural math notation
+  - Unit management
+  - Symbolic and numeric solving
+  - Built-in optimization functions
+
+Types of Optimization Problems
+------------------------------
+- Linear vs. Nonlinear
+- Constrained vs. Unconstrained
+- Single-variable vs. Multi-variable
+- Add visual examples like graphs of cost functions or constraint boundaries
