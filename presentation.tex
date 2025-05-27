@@ -20,11 +20,13 @@
 
 \begin{frame}{What is Optimization}
 \begin{itemize}
-\item Optimization is the process of finding the best possible solution from a set of feasible solutions.
+\item Definition: “Optimization is the process of finding the best solution from all feasible solutions.”
 \vspace{10pt}
-\item It involves maximizing or minimizing an objective function (e.g., cost, time, efficiency).
+\item Core elements: Objective function, decision variables, constraints
 \vspace{10pt}
-\item Common in engineering, economics, logistics, design, etc.
+\item Simple examples: Minimizing cost, maximizing efficiency
+\vspace{10pt}
+\item Real-life analogy (e.g., finding the fastest route on a map)
 \end{itemize}
 \end{frame}
 
@@ -37,19 +39,78 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{What is Mathcad Prime\textsuperscript{\tiny\textregistered}}
+\begin{frame}{Applications of Optimization}
 \begin{itemize}
-\item Mathcad Prime\textsuperscript{\tiny\textregistered} is a technical computing software developed by PTC.
-\vspace{10pt}
-\item Designed for engineering calculations, documentation, and mathematical analysis.
-\vspace{10pt}
-\item Combines live math, units handling, and text formatting in a single worksheet.
+\item Engineering design (e.g., minimizing material use)
+\item Operations research (e.g., supply chain optimization)
+% \item Finance (e.g., portfolio optimization)
+\item Machine learning (e.g., cost function minimization)
 \end{itemize}
 \end{frame}
 
-\begin{frame}{}
+\begin{frame}{Overview of Mathcad Prime as a Computational Tool}
+\begin{itemize}
+\item Intuitive math-like interface
+\item Symbolic and numerical solving capabilities
+\item Easy visualization of functions
+\item Integration with engineering calculations
+\item Documentation and calculations in one place
+\end{itemize}
+\end{frame}
+
+\section{Optimization Capabilities in Mathcad Prime}
+
+\begin{frame}{Key features for optimization}
+\begin{itemize}
+\item WYSIWYG interface: Equations look as they are written in math
+\item Dynamic recalculation with parameter changes
+\item Support for symbolic and numerical calculations
+\item Built-in optimization tools ($minimize()$, $maximize()$, $solve block$)
+\item Plotting capabilities for function visualization
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Built-in Optimization Functions}
+\begin{itemize}
+\item $minimize(f, x)$: Finds the value of $x$ that minimizes function $f$
+\item $maximize(f, x)$: Finds the value of $x$ that maximizes function $f$
+\item \textbf{Solve block}: More flexible method for complex problems, including constraints
+\item Requires initial guesses
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Mathcad Syntax and Variable Definition Essentials}
+\begin{itemize}
+\item Variables are defined using $:=$
+\item Functions are defined similarly to programming, e.g., $f(x) := x^2 + 3$
+\item Units can be used and converted
+\item Importance of defining guess values before using $minimize()$ or $maximize()$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Constraints in Optimization Problems}
+\begin{itemize}
+\item Constraints can be equations ($=$) or inequalities ($\leq$, $\geq$)
+\item Constraints are used inside solve blocks
+\item Example: Subject to $x \geq 0$, $x + y = 10$
+\item Use $Find(variable)$ inside solve block to obtain result
+\end{itemize}
+\end{frame}
+
+\section{Solving Different Types of Optimization Problems}
+
+\begin{frame}{Unconstrained Optimization Problems}
+\begin{itemize}
+\item No restrictions or limitations on variable values
+\item Common for simple mathematical functions
+\item Use $minimize(f, x)$ or $maximize(f, x)$
+\item Requires a good initial guess
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Valediction}
 \begin{center}
-Thank you for attention!
+\Huge Thank you for attention!
 \end{center}
 \end{frame}
 
