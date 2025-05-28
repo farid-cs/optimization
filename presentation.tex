@@ -6,6 +6,7 @@
 
 \usetheme{Frankfurt}
 \usepackage{fontspec}
+\usepackage{amsmath}
 
 \begin{document}
 
@@ -16,7 +17,7 @@
 \tableofcontents
 \end{frame}
 
-\section{Introduction}
+\section{Optimization Overview}
 
 \begin{frame}{What is Optimization}
 \begin{itemize}
@@ -43,12 +44,13 @@
 \begin{itemize}
 \item Engineering design (e.g., minimizing material use)
 \item Operations research (e.g., supply chain optimization)
-% \item Finance (e.g., portfolio optimization)
 \item Machine learning (e.g., cost function minimization)
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Overview of Mathcad Prime as a Computational Tool}
+\section{Mathcad Prime Overview}
+
+\begin{frame}{Mathcad Prime as a Computational Tool}
 \begin{itemize}
 \item Intuitive math-like interface
 \item Symbolic and numerical solving capabilities
@@ -58,7 +60,17 @@
 \end{itemize}
 \end{frame}
 
-\section{Optimization Capabilities in Mathcad Prime}
+\begin{frame}{Mathcad Syntax and Variable Definition Essentials}
+\begin{itemize}
+\item Variables are defined using $:=$
+\item Functions are defined similarly to programming, e.g., $f(x) := x^2 + 3$
+\item Units can be used and converted
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Syntax Show Case}
+% TODO: put show case here
+\end{frame}
 
 \begin{frame}{Key features for optimization}
 \begin{itemize}
@@ -76,15 +88,6 @@
 \item $maximize(f, x)$: Finds the value of $x$ that maximizes function $f$
 \item \textbf{Solve block}: More flexible method for complex problems, including constraints
 \item Requires initial guesses
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Mathcad Syntax and Variable Definition Essentials}
-\begin{itemize}
-\item Variables are defined using $:=$
-\item Functions are defined similarly to programming, e.g., $f(x) := x^2 + 3$
-\item Units can be used and converted
-\item Importance of defining guess values before using $minimize()$ or $maximize()$
 \end{itemize}
 \end{frame}
 
@@ -106,6 +109,55 @@
 \item Use $minimize(f, x)$ or $maximize(f, x)$
 \item Requires a good initial guess
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Unconstrained Optimization Problem}
+\begin{itemize}
+\item Minimize the function: $f(x) = x^2 + 4x + 5$
+\item Where $x$ is a real number.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Unconstrained Optimization Problem}
+% TODO: Put solution here
+\end{frame}
+
+\begin{frame}{Linear Optimization Problem}
+Maximize the objective function:
+\begin{center}
+$Z = 3x + 5y$
+\end{center}
+Subject to:
+\begin{center}
+$$\begin{cases}
+	x + 2y \leq 14 \\
+	3x - y \geq 0 \\
+	x - y \leq 2 \\
+	x \geq 0, \, y \geq 0
+\end{cases}$$
+\end{center}
+\end{frame}
+
+\begin{frame}{Linear Optimization Problem}
+% put solution here
+\end{frame}
+
+\begin{frame}{Constrained Nonlinear Optimization}
+Minimize the function:
+\begin{center}
+$f(x, y) = (x - 2)^2 + (y - 3)^2$
+\end{center}
+Subject to:
+\begin{center}
+$$\begin{cases}
+	x + y \geq 4 \\
+	x \geq 0, \, y \geq 0
+\end{cases}$$
+\end{center}
+\end{frame}
+
+\begin{frame}{Constrained Nonlinear Optimization}
+% TODO: put solution here
 \end{frame}
 
 \begin{frame}{Valediction}
